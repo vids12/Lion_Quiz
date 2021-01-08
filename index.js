@@ -4,9 +4,10 @@ var score=0;
 var userName=readlineSync.question(chalk.rgb(255, 255, 0)("Your Name: "));
 console.log(chalk.hex('#DEADED').bold(`\nWelcome ${userName} to Vidushi's Lion King QUIZ!!`));
 console.log(chalk.bold.red.underline("\nRules"));
-console.log(chalk.rgb(153, 255, 214)("\n1. There are three levels. You have 7,7 and 6 questions in Level-1,Level-2,Level-3 respectively."));
-console.log(chalk.rgb(153, 255, 214)("\n2.You have to score more than 4 to qualify level-1. Similarly, you have to score more than 10 to qualify level-2."))
-console.log(chalk.rgb(153, 255, 214)("\n3.Type the answer and press Enter Key."))
+console.log(chalk.rgb(153, 255, 214)("\n1. It is a three level based quiz having 7,7,6 questions respectively in each level."));
+console.log(chalk.rgb(153, 255, 214)("\n2.You have to score more than 4 to qualify level-1. Similarly, you have to score more than 10 to qualify level-2."));
+console.log(chalk.rgb(153, 255, 214)("\n3.Type the answer and press Enter Key."));
+console.log(chalk.rgb(153, 255, 214)("\n4. 1 mark for right answer. There is no negative marking."));
 console.log(chalk.rgb(179, 0, 71).bold("\nLet's Start...\n"));
 //High Scores(Bonus Homework)
 var highScores=[{
